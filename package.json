@@ -1,0 +1,28 @@
+{
+  "name": "uuid_as_bmp",
+  "version": "1.0.0",
+  "description": "uuid to bmp ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfseb/uuid_as_bmp.git"
+  },
+  "keywords": [
+    "uuid",
+    "v1",
+    "-",
+    "v5"
+  ],
+  "author": "gerd.forstmann@live.de",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfseb/uuid_as_bmp/issues"
+  },
+  "homepage": "https://github.com/jfseb/uuid_as_bmp#readme",
+  "dependencies": {
+    "bmp-js": "^0.1.0"
+  }
+}

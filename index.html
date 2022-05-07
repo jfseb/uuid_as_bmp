@@ -1,0 +1,133 @@
+
+<html>
+
+
+<head>
+
+
+</head>
+
+<body>
+
+<table>
+<tr>
+	<th>
+	</th>
+
+</tr>
+
+<tr>
+<td>
+ v1
+ <br/>
+ <pre style="font-size:smaller">
+b13a2300-cdfd-11ec-bfba-c15f381b4137
+b13a2301-cdfd-11ec-bfba-c15f381b4137
+b13a2302-cdfd-11ec-bfba-c15f381b4137
+b13a2303-cdfd-11ec-bfba-c15f381b4137
+b13a2304-cdfd-11ec-bfba-c15f381b4137
+b13a2305-cdfd-11ec-bfba-c15f381b4137
+b13a2306-cdfd-11ec-bfba-c15f381b4137
+ </pre>
+</td>
+<td>
+ v3 <br/>
+<pre style="font-size:smaller">
+0beea4b1-f41f-33ee-b6e4-f164935be670
+528808fa-1db9-3be2-9002-4b01cb7dedc6
+bee0f677-0900-37aa-b89a-4667090d8a95
+9978b614-42c5-3575-95fe-44aeae8f80e3
+28da63f9-b081-34b2-aa01-09ebba0203bc
+975be983-d694-3963-82fd-79b7a3b4943b
+5e8fac31-20ad-3c97-8a23-0b61e6fd2e5c
+</pre>
+</td>
+<td>
+ v4 <br/>
+ <pre style="font-size:smaller">
+383ae4bc-f56b-416d-ad06-fbc753b06c2c
+52b51cdf-380e-4b11-a42d-1830da8ee63f
+788e526c-55e2-47c4-8037-d35ec8e2df4b
+61d89d26-4c93-475a-92a5-8a65e8a76c61
+018e5c32-4ee6-4401-8297-27938ef3a5b1
+e98d1ff2-caa8-46c8-923d-ba89a4607f82
+93ad8e6b-a3f3-4bb9-b3ed-a67d4c2f3cf4
+  </pre>
+
+</td>
+<td>
+ v5
+ <br/>
+<pre style="font-size:smaller">
+e00a10b3-eb03-5cc2-ae75-96c775700f55
+57927bdd-aee2-5983-8015-cbaf67d1e1ae
+3a27aa87-ef63-59b1-9cb9-e3209311f81f
+af7e6f21-b099-5c43-b28c-53fbb8645725
+fc9db1f3-bb66-5688-acb2-fce9474d1346
+35bee112-2f24-5a1a-ac71-544b5c9b772b
+dcd3eb70-ec1d-563b-a157-bf048933b461
+  </pre>
+
+</td>
+<td>
+ abap <br/>
+<pre style="font-size:smaller">
+FA163E53-0BF7-1EDC-B3C2-93DF3AEB8784
+FA163E530BF71EDCB3C293DF3AEBA784
+FA163E530BF71EDCB3C293DF3AEBC784
+FA163E530BF71EDCB3C293DF3AEBE784
+FA163E530BF71EDCB3C293DF3AEC0784
+FA163E530BF71EDCB3C293DF3AEC2784
+FA163E530BF71EDCB3C293DF3AEC4784
+</pre>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="output/v1.bmp">
+</td>
+<td>
+<img src="output/v3.bmp">
+</td>
+<td>
+<img src="output/v4.bmp">
+</td>
+<td>
+<img src="output/v5.bmp">
+</td>
+<td>
+<img src="output/abap.bmp">
+</td>
+</tr>
+</table>
+
+
+
+
+SQL Server sorts uuids like this:
+
+<pre>
+
+SELECT TOP 1000 [JOB_ID]
+  FROM [HrmlPC13xProd].[dbo].[JOB] ORDER BY JOB_ID ASC
+                        v
+5C6C6C3E-C392-4A81-805C-0000ABD8EC5A
+7C5D037A-732A-4E90-9C15-0001E36F8177
+2EF8B008-39D2-4FB9-AFBB-0002C33C8AF1
+544CA1BD-D7D8-46A9-8376-0002FC1ACC15
+FE8DFAFD-277F-4C39-ACF2-00034B5AD70B
+641D8195-3A26-484C-9E14-00049C7960FB
+E435FF27-6125-417D-8213-0004ED8047FD
+D59728C8-F91C-4AC8-B80E-0005902506BC
+FEC6C5A4-0C2B-4F61-81B3-00076FD42C17
+C538A5AC-DB8D-4426-A9FF-0008C24B8C64
+CB27B6FE-2483-4D9C-A9BD-0009BFE7A637
+...
+2D956091-9627-481D-94C4-FFE8FDFC92EA
+03BD2A49-4143-4126-AA3A-FFEE21FB4641
+</pre>
+
+
+</body>
+</html>
